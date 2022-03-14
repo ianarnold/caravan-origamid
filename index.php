@@ -71,7 +71,9 @@
     <section class="container-fluid">
         <div class="row bg-dark text-white">
 
-            <div class="col-7"></div>
+            <div class="col-7">
+                
+            </div>
 
             <div class="col-lg-5 p-4">
                 <h1 class="display-4">Realize a viagem do seu sonho</h1>
