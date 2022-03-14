@@ -68,10 +68,10 @@
         </div>
     </nav>
 
+    <!-- CARROSEL AREA -->
     <section class="container-fluid">
         <div class="row bg-dark text-white">
-
-            <div class="col-7">
+            <div class="col-lg-7 p-0">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -81,12 +81,21 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="img/california.jpg" alt="California">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">California</h3>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="img/dublin.jpg" alt="Dublin">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Dublin</h3>
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="img/paris.jpg" alt="Paris">
+                            <div class="carousel-caption">
+                                <h3 class="display-4">Paris</h3>
+                            </div>
                         </div>
                     </div>
                     <a
@@ -108,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 p-4">
+            <div class="col-lg-5 p-4 align-self-center">
                 <h1 class="display-4">Realize a viagem do seu sonho</h1>
                 <p class="lead">O melhor local para viajar é com a Caravan, mais de 5.000 excursões concluídas.</p>
                 <form action="#">
@@ -120,7 +129,173 @@
                     </div>
                 </form>
             </div>
+        </div>
+    </section>
+    <!-- FIM CARROSEL AREA -->
 
+    <!-- VANTAGENS AREA -->
+    <section class="py-5 bg-light text-center">
+        <div class="container">
+            <div class="my-5">
+                <span class="h6 d-block">TUDO DE MELHOR PRA VOCÊ</span>
+                <h2 class="display-4 text-primary">Aproveite as vantagens</h2>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/passaporte.svg" alt="Passaporte">
+                    </div>
+                    <h3>Documentos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/passagens.svg" alt="passagens">
+                    </div>
+                    <h3>Passagens</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/translado.svg" alt="translado">
+                    </div>
+                    <h3>Translado</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/praias.svg" alt="praias">
+                    </div>
+                    <h3>Praias</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/bagagens.svg" alt="bagagens">
+                    </div>
+                    <h3>Bagagens</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+                <div class="col-xl-4 col-md-6">
+                    <div class="d-flex justify-content-center icone">
+                        <img src="img/icones/turismo.svg" alt="turismo">
+                    </div>
+                    <h3>Turismo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                        purus. Phasellus ullamcorper elementum ipsum.</p>
+                </div>
+            </div>
+            <a href="planos.html" class="btn btn-primary btn-lg mt-4">Comprar Plano</a>
+        </div>
+    </section>
+    <!-- FIM VANTAGENS AREA -->
+
+    <!-- TESTIMONIAL AREA -->
+    <section class="img-quote p-md-5">
+        <blockquote class="blockquote text-center text-white p-md-5 p-3">
+            <p class="display-4">
+                <em>
+                    "A feliciduaide não está na estruaida que leiva a algum luigaire. A feliciduaide
+                    é a proaipria estreida."
+                </em>
+            </p>
+            <footer class="blockquote-footer text-white">Príncipe Ouro Negro</footer>
+        </blockquote>
+    </section>
+    <!-- FIM TESTIMONIAL AREA -->
+
+    <section class="container">
+        <div class="my-5 text-center">
+            <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
+            <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6" id="perguntasFrequentes" data-children=".pergunta">
+
+                <div class="pergunta py-2">
+                    <a
+                        class="lead"
+                        data-toggle="collapse"
+                        data-parent="#perguntasFrequentes"
+                        href="#pergunta1"
+                        aria-expanded="true"
+                        aria-controls="pergunta1">➜ É possível cancelar a viagem?</a>
+                    <div class="collapse show" id="pergunta1" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                            purus. Phasellus ullamcorper elementum ipsum.</p>
+                    </div>
+                </div>
+
+
+                <div class="pergunta py-2">
+                    <a
+                        class="lead"
+                        data-toggle="collapse"
+                        data-parent="#perguntasFrequentes"
+                        href="#pergunta2"
+                        aria-expanded="true"
+                        aria-controls="pergunta2">➜ Qual a garantia que tenho se perde o voo?</a>
+                    <div class="collapse" id="pergunta2" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                            purus. Phasellus ullamcorper elementum ipsum.</p>
+                    </div>
+                </div>
+
+
+                <div class="pergunta py-2">
+                    <a
+                        class="lead"
+                        data-toggle="collapse"
+                        data-parent="#perguntasFrequentes"
+                        href="#pergunta3"
+                        aria-expanded="true"
+                        aria-controls="pergunta3">➜ Qual a principal forma de viagem?</a>
+                    <div class="collapse" id="pergunta3" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                            purus. Phasellus ullamcorper elementum ipsum.</p>
+                    </div>
+                </div>
+
+
+                <div class="pergunta py-2">
+                    <a
+                        class="lead"
+                        data-toggle="collapse"
+                        data-parent="#perguntasFrequentes"
+                        href="#pergunta4"
+                        aria-expanded="true"
+                        aria-controls="pergunta4">➜ Qual o melhor destino de viagem?</a>
+                    <div class="collapse" id="pergunta4" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                            purus. Phasellus ullamcorper elementum ipsum.</p>
+                    </div>
+                </div>
+
+
+                <div class="pergunta py-2">
+                    <a
+                        class="lead"
+                        data-toggle="collapse"
+                        data-parent="#perguntasFrequentes"
+                        href="#pergunta5"
+                        aria-expanded="true"
+                        aria-controls="pergunta5">➜ Vocês dão descontos para grupos grandes?</a>
+                    <div class="collapse" id="pergunta5" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in mattis
+                            purus. Phasellus ullamcorper elementum ipsum.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="text-center my-4">
+            <p class="small m-0">FALE CONOSCO PARA MAIS DÚVIDAS</p>
+            <a href="contato.html" class="btn btn-primary btn-lg">Entre em Contato</a>
         </div>
     </section>
 
