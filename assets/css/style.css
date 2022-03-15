@@ -10,13 +10,11 @@
 
 */
 
-body 
-{
+body {
     padding-top: 75px;
 }
 
-.box-shadow 
-{
+.box-shadow {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
     0 4px 8px 0 rgba(0, 0, 0, .05);
 }
@@ -29,13 +27,11 @@ body
                                                                                                                                                                                                                               
 */
 
-.icone 
-{
+.icone  {
     height: 100px;
 }
 
-.img-quote
-{
+.img-quote {
     background: url('../img/bg-quote.jpg') center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,4 +53,8 @@ body
 
 .pergunta {
     border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.botaoSocial {
+    max-width: 140px;
 }
