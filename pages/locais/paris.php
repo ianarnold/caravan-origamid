@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Caravan - Dublin</title>
+    <title>Caravan - Paris</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -121,10 +121,14 @@
             <span class="h6 d-block">
                 O MELHOR DESTINO DA SUA VIAGEM
             </span>
-            <h1 class="display-4 text-primary">Descubra Dublin</h1>
+            <h1 class="display-4 text-primary">Descubra Paris</h1>
         </div>
         <div class="row">
             <div class="col-md">
+                <img
+                    src="../../assets/img/local/foto-3.jpg"
+                    alt="Foto 3"
+                    class="img-fluid mb-4">
                 <img
                     src="../../assets/img/local/foto-1.jpg"
                     alt="Foto 1"
@@ -133,15 +137,11 @@
                     src="../../assets/img/local/foto-2.jpg"
                     alt="Foto 2"
                     class="img-fluid mb-4">
-                <img
-                    src="../../assets/img/local/foto-3.jpg"
-                    alt="Foto 3"
-                    class="img-fluid mb-4">
             </div>
             <div class="col-md">
                 <img
-                    src="../../assets/img/local/foto-4.jpg"
-                    alt="Foto 4"
+                    src="../../assets/img/local/foto-6.jpg"
+                    alt="Foto 6"
                     class="img-fluid mb-4">
                 <img
                     src="../../assets/img/local/foto-5.jpg"
@@ -150,13 +150,13 @@
             </div>
             <div class="col-md">
                 <img
-                    src="../../assets/img/local/foto-6.jpg"
-                    alt="Foto 6"
-                    class="img-fluid mb-4">
-                <img
                     src="../../assets/img/local/foto-7.jpg"
                     alt="Foto 7"
                     class="img-fluid imagemVertical mb-4">
+                <img
+                    src="../../assets/img/local/foto-4.jpg"
+                    alt="Foto 4"
+                    class="img-fluid mb-4">
             </div>
         </div>
     </section>
@@ -234,7 +234,7 @@
     <!-- FIM TICKETS AREA -->
 
     <!-- FOOTER AREA -->
-    <footer class="bg-dark text-white mt-5">
+    <footer class="bg-dark text-white">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-3 col-6">

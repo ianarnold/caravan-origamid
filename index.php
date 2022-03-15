@@ -337,7 +337,7 @@
     <!-- FIM DUVIDAS AREA -->
 
     <!-- FOOTER AREA -->
-    <footer class="bg-dark text-white">
+    <footer class="bg-dark text-white mt-5">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-3 col-6">

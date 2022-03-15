@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <title>Caravan - Dublin</title>
+    <title>Caravan - PLANOS</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 
@@ -58,8 +58,8 @@
     <!-- HEADER AREA -->
     <nav
         class="navbar fixed-top navbar-expand-md navbar-light bg-light py-3 box-shadow">
-        <a href="../../index.php" class="navbar-brand">
-            <img src="../../assets/img/caravan.svg" alt="Logo Caravan">
+        <a href="../index.php" class="navbar-brand">
+            <img src="../assets/img/caravan.svg" alt="Logo Caravan">
         </a>
         <button
             class="navbar-toggler"
@@ -75,7 +75,7 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a
-                        class="nav-link dropdown-toggle active"
+                        class="nav-link dropdown-toggle"
                         href="#"
                         id="navbarDropdown"
                         role="button"
@@ -85,18 +85,18 @@
                         Locais
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="california.php">California</a>
-                        <a class="dropdown-item" href="paris.php">Paris</a>
-                        <a class="dropdown-item" href="dublin.php">Dublin</a>
+                        <a class="dropdown-item" href="locais/california.php">California</a>
+                        <a class="dropdown-item" href="locais/paris.php">Paris</a>
+                        <a class="dropdown-item" href="locais/dublin.php">Dublin</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="../planos.php" class="nav-link">
+                    <a href="planos.php" class="nav-link active">
                         Planos
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../contato.php" class="nav-link">
+                    <a href="contato.php" class="nav-link">
                         Contato
                     </a>
                 </li>
@@ -106,7 +106,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="../inscricao.php" class="btn btn-outline-primary ml-md-2">
+                    <a href="inscricao.php" class="btn btn-outline-primary ml-md-2">
                         Inscreva-se
                     </a>
                 </li>
@@ -115,123 +115,81 @@
     </nav>
     <!-- FIM HEADER AREA -->
 
-    <!-- GALERIA AREA -->
+    <!-- PLANOS AREA -->
     <section class="container">
         <div class="text-center my-5">
             <span class="h6 d-block">
-                O MELHOR DESTINO DA SUA VIAGEM
+                SUA VIAGEM, SEU PLANO
             </span>
-            <h1 class="display-4 text-primary">Descubra Dublin</h1>
+            <h1 class="display-4 text-primary">Escolha o Plano</h1>
         </div>
         <div class="row">
-            <div class="col-md">
-                <img
-                    src="../../assets/img/local/foto-1.jpg"
-                    alt="Foto 1"
-                    class="img-fluid mb-4">
-                <img
-                    src="../../assets/img/local/foto-2.jpg"
-                    alt="Foto 2"
-                    class="img-fluid mb-4">
-                <img
-                    src="../../assets/img/local/foto-3.jpg"
-                    alt="Foto 3"
-                    class="img-fluid mb-4">
+            <div class="col-md mb-5">
+                <div class="bg-light rounded p-4 box-shadow">
+                    <h2>Gold</h2>
+                    <ul class="lista-plano list-unstyled">
+                        <li>➜ 30 dias de viagem</li>
+                        <li>➜ 3 destinos diferentes</li>
+                        <li>➜ Tudo pago pela empresa</li>
+                        <li>➜ Ingressos para festas</li>
+                    </ul>
+                    <form action="#">
+                        <div class="form-group">
+                            <select name="inputCidades" id="inputCidades" class="form-control bg-light">
+                                <option value="0" selected disabled>Selecione a cidade...</option>
+                                <option value="1">California</option>
+                                <option value="2">Paris</option>
+                                <option value="3">Dublin</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="row align-items-center mt-4">
+                        <div class="col">
+                            <a href="inscricao.php" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                        </div>
+                        <div class="col">
+                            <span class="h4">R$5.000</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md">
-                <img
-                    src="../../assets/img/local/foto-4.jpg"
-                    alt="Foto 4"
-                    class="img-fluid mb-4">
-                <img
-                    src="../../assets/img/local/foto-5.jpg"
-                    alt="Foto 5"
-                    class="img-fluid imagemVertical mb-4">
-            </div>
-            <div class="col-md">
-                <img
-                    src="../../assets/img/local/foto-6.jpg"
-                    alt="Foto 6"
-                    class="img-fluid mb-4">
-                <img
-                    src="../../assets/img/local/foto-7.jpg"
-                    alt="Foto 7"
-                    class="img-fluid imagemVertical mb-4">
+            <div class="col">
+                <div class="bg-light rounded p-4 box-shadow">
+                    <h2>Platinum
+                        <span class="badge badge-success">Novo</span>
+                    </h2>
+                    <ul class="lista-plano list-unstyled">
+                        <li>➜ 60 dias de viagem</li>
+                        <li>➜ 6 destinos diferentes</li>
+                        <li>➜ Tudo pago pela empresa</li>
+                        <li>➜ Ingressos para festas</li>
+                    </ul>
+                    <form action="#">
+                        <div class="form-group">
+                            <select name="inputCidades" id="inputCidades" class="form-control bg-light">
+                                <option value="0" selected disabled>Selecione a cidade...</option>
+                                <option value="1">Araçapuca da Terra</option>
+                                <option value="2">Cubatão</option>
+                                <option value="3">Bangú</option>
+                                <option value="4">Osasco</option>
+                                <option value="5">Botucatu</option>
+                                <option value="6">Pindamonhangaba</option>
+                            </select>
+                        </div>
+                    </form>
+                    <div class="row align-items-center mt-4">
+                        <div class="col">
+                            <a href="inscricao.php" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
+                        </div>
+                        <div class="col">
+                            <span class="h4">R$7.500</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- FIM GALERIA AREA -->
-
-    <!-- TICKETS AREA -->
-    <section class="container">
-        <div class="text-center my-5">
-            <span class="h6 d-block">
-                DESCUBRA O QUE ACONTECE NA CIDADE
-            </span>
-            <h1 class="display-4 text-primary">Próximos eventos</h1>
-        </div>
-        <table class="table table-hover text-center table-responsive-md">
-            <thead>
-                <tr>
-                    <th scope="col">Data</th>
-                    <th scope="col">Evento</th>
-                    <th scope="col">Local</th>
-                    <th scope="col">Ticket</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">23/10</th>
-                    <td>Cleyton Rasta</td>
-                    <td>Tumiaru</td>
-                    <td>
-                        <a href="#" class="btn btn-outline-secondary btn-sm">Comprar Ticket</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <!-- FIM TICKETS AREA -->
+    <!-- FIM PLANOS AREA -->
 
     <!-- FOOTER AREA -->
     <footer class="bg-dark text-white mt-5">
@@ -255,13 +213,13 @@
                     <h4 class="h6">LOCAIS</h4>
                     <ul class="list-unstyled">
                         <li>
-                            <a href="california.php">California</a>
+                            <a href="locais/california.php">California</a>
                         </li>
                         <li>
-                            <a href="paris.php">Paris</a>
+                            <a href="locais/paris.php">Paris</a>
                         </li>
                         <li>
-                            <a href="dublin.php">Dublin</a>
+                            <a href="locais/dublin.php">Dublin</a>
                         </li>
                     </ul>
                 </div>
@@ -295,9 +253,9 @@
     </div>
     <!-- FIM FOOTER AREA -->
 
-    <script type="text/javascript" src="../../assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script type="text/javascript" src="../../assets/js/popper.min.js"></script>
-    <script type="text/javascript" src="../../assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="../../assets/js/app.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="../assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../assets/js/app.js"></script>
 </body>
 </html>
