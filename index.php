@@ -104,7 +104,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="btn btn-outline-primary ml-md-2">
+                    <a href="pages/inscricao.php" class="btn btn-outline-primary ml-md-2">
                         Inscreva-se
                     </a>
                 </li>

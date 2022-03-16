@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Caravan - PLANOS</title>
+    <title>Caravan - Planos</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -153,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md mb-5">
                 <div class="bg-light rounded p-4 box-shadow">
                     <h2>Platinum
                         <span class="badge badge-success">Novo</span>

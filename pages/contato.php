@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Caravan - PLANOS</title>
+    <title>Caravan - Contato</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -91,12 +91,12 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="planos.php" class="nav-link active">
+                    <a href="planos.php" class="nav-link">
                         Planos
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="contato.php" class="nav-link">
+                    <a href="contato.php" class="nav-link active">
                         Contato
                     </a>
                 </li>
@@ -119,7 +119,7 @@
     <section class="container">
         <div class="my-5 text-center">
             <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
-            <h2 class="display-4 text-primary">Fale Conosco</h2>
+            <h1 class="display-4 text-primary">Fale Conosco</h1>
         </div>
         <div class="row">
             <div class="col-lg-6">
@@ -258,7 +258,7 @@
             </div>
             <div class="text-center my-4">
                 <p class="small m-0">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-                <a href="pages/contato.php" class="btn btn-primary btn-lg">Entre em Contato</a>
+                <a href="contato.php" class="btn btn-primary btn-lg">Entre em Contato</a>
             </div>
         </section>
         <!-- FIM DUVIDAS AREA -->
