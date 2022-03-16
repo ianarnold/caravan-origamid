@@ -256,10 +256,6 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center my-4">
-                <p class="small m-0">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-                <a href="contato.php" class="btn btn-primary btn-lg">Entre em Contato</a>
-            </div>
         </section>
         <!-- FIM DUVIDAS AREA -->
 

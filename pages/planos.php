@@ -128,15 +128,31 @@
                 <div class="bg-light rounded p-4 box-shadow">
                     <h2>Gold</h2>
                     <ul class="lista-plano list-unstyled">
-                        <li>➜ 30 dias de viagem</li>
-                        <li>➜ 3 destinos diferentes</li>
-                        <li>➜ Tudo pago pela empresa</li>
-                        <li>➜ Ingressos para festas</li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Isso mesmo, são 30 dias totais de viagem.">➜ 30 dias de viagem</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="3 Cidades incríveis para você conhecer.">➜ 3 destinos diferentes</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Hospedagem, alimentação, passeios e tudo mais. Tudo Incluso">➜ Tudo pago pela empresa</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Com direito as melhores festas.">➜ Ingressos para festas</span></li>
                     </ul>
                     <form action="#">
                         <div class="form-group">
                             <select name="inputCidades" id="inputCidades" class="form-control bg-light">
-                                <option value="0" selected disabled>Selecione a cidade...</option>
+                                <option value="0" selected="selected" disabled="disabled">Selecione a cidade...</option>
                                 <option value="1">California</option>
                                 <option value="2">Paris</option>
                                 <option value="3">Dublin</option>
@@ -159,15 +175,31 @@
                         <span class="badge badge-success">Novo</span>
                     </h2>
                     <ul class="lista-plano list-unstyled">
-                        <li>➜ 60 dias de viagem</li>
-                        <li>➜ 6 destinos diferentes</li>
-                        <li>➜ Tudo pago pela empresa</li>
-                        <li>➜ Ingressos para festas</li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Isso mesmo, são 60 dias totais de viagem.">➜ 60 dias de viagem</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="6 Cidades incríveis para você conhecer.">➜ 6 destinos diferentes</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Hospedagem, alimentação, passeios e tudo mais. Tudo Incluso">➜ Tudo pago pela empresa</span></li>
+                        <li>
+                            <span
+                                data-toggle="tooltip"
+                                data-placement="right"
+                                title="Com direito as melhores festas.">➜ Ingressos para festas</span></li>
                     </ul>
                     <form action="#">
                         <div class="form-group">
                             <select name="inputCidades" id="inputCidades" class="form-control bg-light">
-                                <option value="0" selected disabled>Selecione a cidade...</option>
+                                <option value="0" selected="selected" disabled="disabled">Selecione a cidade...</option>
                                 <option value="1">Araçapuca da Terra</option>
                                 <option value="2">Cubatão</option>
                                 <option value="3">Bangú</option>
